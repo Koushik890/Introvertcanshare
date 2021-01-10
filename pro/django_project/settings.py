@@ -25,7 +25,7 @@ SECRET_KEY = '5s97pn3p1-fmyytj5lhm9-(vc(xx-5f7n^i0o^7z-+!wz)x3kx'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['sharestories123.herokuapp.com','127.0.0.1']
 
 
 # Application definition
