@@ -5,7 +5,7 @@
     border-style: outset;
     border-width: 8px;
     border-collapse: separate;
-    background: rgb(155, 155, 167);
+    background: rgb(178, 178, 214);
 }
 .home{
     background: rgba(192, 190, 190, 0.877);
@@ -34,11 +34,11 @@
 #post_author{
     font-size: 25px;
     padding-left: 15px;
-    color: rgb(36, 13, 240);
+    color: rgb(240, 134, 13);
 }
 
 #navbar{
-    background: rgb(209, 160, 114);
+    background: rgb(14, 137, 158);
     padding: 18px;
 }
 
@@ -55,7 +55,7 @@
 #post_head{
     font-size: 35px;
     font-family: 'Anton', sans-serif;
-    color: rgb(14, 48, 240);
+    color: rgb(16, 33, 133);
 }
 
 .requiredField{
