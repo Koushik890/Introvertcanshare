@@ -1,5 +1,5 @@
 {% extends "users/base.html" %}
-
+{% load crispy_forms_tags %}
 {% block register-content %}
     <header>
         {% if messages %}
@@ -16,7 +16,7 @@
             <fieldset class="form-group">
                     <legend class="border-bottom nb-4">Delete Post</legend>
                     <h2>Are You Sure You Want To Delete The Post</h2>
-                    {{ form }}
+                    {{ form|crispy }}
             </fieldset>
             <div class="form-group">
                 <button class="btn btn-outline-danger" type="submit">Yes</button>

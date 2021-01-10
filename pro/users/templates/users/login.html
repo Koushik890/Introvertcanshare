@@ -1,5 +1,5 @@
 {% extends "users/base.html" %}
-
+{% load crispy_forms_tags %}
 {% block login-content %}
     <header>
         {% if messages %}
@@ -16,7 +16,7 @@
                 {% csrf_token %}
                 <fieldset class="form_group">
                         <legend class="border-bottom " id="login">Log In</legend>
-                        {{ form }}
+                        {{ form|crispy}}
                 </fieldset>
                 <div class="form-group" >
                     <button class="btn btn-outline-info" type="submit" id="login_button">Log In</button>

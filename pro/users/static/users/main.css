@@ -7,41 +7,48 @@
 }
  
 .background-image{
-    background: url("https://images.unsplash.com/photo-1525898416124-a6464ad4dd84?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60") center center no-repeat;
+    background: url("https://images.unsplash.com/photo-1455849318743-b2233052fcff?ixid=MXwxMjA3fDB8MHxzZWFyY2h8MjZ8fGJsb2d8ZW58MHx8MHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60") center center no-repeat;
     background-repeat: no-repeat;
-    background-size: cover;
-    
+    background-size: cover; 
 }
 
 
 .form_design{
-    height: 100%;
-    width: 50%;
+    height: 80%;
+    width: 25%;
     display: block;
     margin: auto;
-    padding: 5px;
+    padding: 20px;
     color: rgb(0,0,0);
-    font-size: 30px;
+    font-size: 25px;
     text-align: center;
     font-family: 'Bebas Neue', cursive;
 }
 
+input[type=text]{
+    border: none;
+    border-bottom: 3px solid red;
+}
+input[type=email]{
+    border: none;
+    border-bottom: 3px solid red;
+}
+input[type=password]{
+    border: none;
+    border-bottom: 3px solid red;
+}
+
 .register{
     color: rgb(0,0,0);
-    font-size: 40px;
+    font-size: 30px;
     font-family: 'Bangers', cursive;
     text-align: center;
 }
 
-#hint_id_password1{
+.helptext{
     display: none;
 }
-#hint_id_password2{
-    display: none;
-}
-#id_first_name{
-    border-bottom: black;
-}
+
 
 .form-control{
     text-align: center;
@@ -72,12 +79,7 @@
     padding-bottom: 20%;
 }
 
-.form_group{
-    font-family: Georgia;
-    text-align: center;
-    padding-left: 10%;
-    padding-right: 10%;
-}
+
 #login{
     font-size: 40px;
 }

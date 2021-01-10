@@ -12,13 +12,13 @@
     </header>
     <div class="container-fluid">
         <div class="background-image">      
-        <h1 class="headingline" ><strong>SHARE AND INSPIRE WITH YOUR HELPING STORIES</strong></h1>
+        <h1 class="headingline" ><strong>SHARE AND INSPIRE WITH YOUR STORIES</strong></h1>
             <div class="container">
                 <form method="POST" name="register_form" autocomplete="off">
                     {% csrf_token %}
                     <fieldset class="form-group">
                         <legend class="border-bottom nb-1 register">Register And Join Today</legend>
-                        <div class="form_design">  {{ form}} </div>                                                
+                        <div class="form_design">  {{form}} </div>                                                
                     </fieldset>
                     <div class="form-group" align="center">
                         <button class="btn btn-outline-info" type="submit" style="background-color: rgb(6, 6, 231); ">Sign Up</button>

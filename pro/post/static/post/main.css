@@ -10,6 +10,8 @@
 .home{
     background: rgba(192, 190, 190, 0.877);
     background-size: cover;
+    width: 50%;
+    height: 50%;
 }
 .article_img{
     border-radius: 50%;
@@ -29,6 +31,10 @@
     text-overflow: ellipsis;
     word-wrap: break-word;
     padding-left: 15px;
+    border: solid black;
+    border-style: outset;
+    border-width: 8px;
+    border-collapse: separate;
 }
 
 #post_author{
